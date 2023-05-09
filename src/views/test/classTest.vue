@@ -21,7 +21,7 @@ class person {
 function showFullName(person: Iperson) {
   return person.firstName + '_' + person.lastName
 }
-let per = new person('李', '太白')
+let per = new person('李', '太白1')
 console.log(showFullName(per))
 
 </script>
