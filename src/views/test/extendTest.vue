@@ -7,7 +7,7 @@
 <script setup lang='ts'>
 // import { ref, reactive } from 'vue'
 class Animal {
-  name: String
+  protected name: String
   constructor(name: String) {
     this.name = name
   }
