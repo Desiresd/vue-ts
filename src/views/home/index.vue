@@ -1,5 +1,5 @@
 <template>
-  <router-view />
+  我是HOME界面
 </template>
 
 <script setup lang='ts'>
