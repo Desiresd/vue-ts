@@ -24,9 +24,7 @@ onMounted(() => {
     const data = readTodos()
     state.todos = readTodos()
     console.log('===============');
-
     console.log(data);
-
   }, 500)
 })
 

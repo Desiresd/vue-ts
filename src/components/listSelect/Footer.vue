@@ -10,10 +10,11 @@
 
 <script setup lang='ts'>
 import { computed } from 'vue'
+import { Todo } from '@/types/todo';
 
 const props = defineProps({
   todos: {
-    type: Array,
+    type: Array<Todo>,
     required: true
   },
   selectAll: {
@@ -27,7 +28,7 @@ const props = defineProps({
 })
 
 const count = computed(() => {
-  return props.todos.reduce((pre: number, todo) => pre + (todo.isCompleted ? 1 : 0), 0)
+  return props.todos.reduce((pre, todo) => pre + (todo.isCompleted ? 1 : 0), 0)
 })
 
 const isCheckAll = computed({
