@@ -1,4 +1,5 @@
 <template>
+  <h4>单例模式</h4>
   <button id="loginBtn">创建登陆弹框</button>
   <button id="loginBtn1">创建登陆弹框1</button>
   <button id="iframeBtn">创建iframe第三方页面</button>
