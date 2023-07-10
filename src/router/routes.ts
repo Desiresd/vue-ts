@@ -18,6 +18,11 @@ const routes: Array<RouteRecordRaw> = [
     path: '/project/listSelect',
     name: 'ListSelect',
     component: () => import('@/views/project/listSelect/index.vue')
+  },
+  {
+    path: '/designMode',
+    name: 'designMode',
+    component: () => import('@/views/deisgnMode/index.vue')
   }
 ]
 
