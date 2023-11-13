@@ -1,7 +1,8 @@
 <template>
   <h3>我是设计模式测试界面</h3>
   <!-- <singleton /> -->
-  <strategy />
+  <!-- <strategy /> -->
+  <agency />
   <hr>
 </template>
 
@@ -9,6 +10,7 @@
 // 设计模式
 import Singleton from './Singleton.vue';
 import Strategy from './Strategy.vue';
+import Agency from './Agency.vue';
 import { ref, reactive } from 'vue'
 
 </script>

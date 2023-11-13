@@ -17,12 +17,27 @@ const routes: Array<RouteRecordRaw> = [
   {
     path: '/project/listSelect',
     name: 'ListSelect',
-    component: () => import('@/views/project/listSelect/index.vue')
+    component: () => import('@/views/listSelect/index.vue')
   },
   {
     path: '/designMode',
     name: 'designMode',
     component: () => import('@/views/deisgnMode/index.vue')
+  },
+  {
+    path: '/vue3Test',
+    name: 'vue3Test',
+    component: () => import('@/views/vue3Test/index.vue')
+  },
+  {
+    path: '/es5-12',
+    name: 'Es5-12',
+    component: () => import('@/views/es5-12/index.vue')
+  },
+  {
+    path: '/taskSlicing',
+    name: 'TaskSlicing',
+    component: () => import('@/views/performanceOptimization/index.vue')
   }
 ]
 
