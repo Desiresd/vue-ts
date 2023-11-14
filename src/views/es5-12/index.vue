@@ -7,6 +7,9 @@
 
   <!-- 迭代器 Iterator -->
   <iterator />
+
+  <!-- Promise -->
+  <promise />
 </template>
 
 
@@ -15,6 +18,7 @@
 import LetAntConst from "./LetAndConst.vue";
 import Deconstruction from "./deconstruction.vue";
 import Iterator from "./Iterator.vue";
+import Promise from "./Promise.vue";
 
 // let obj = {};
 // Object.defineProperty(obj, "a", {
