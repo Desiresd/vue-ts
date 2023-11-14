@@ -35,8 +35,8 @@ const routes: Array<RouteRecordRaw> = [
     component: () => import('@/views/es5-12/index.vue')
   },
   {
-    path: '/taskSlicing',
-    name: 'TaskSlicing',
+    path: '/performanceOptimization',
+    name: 'PerformanceOptimization',
     component: () => import('@/views/performanceOptimization/index.vue')
   }
 ]
