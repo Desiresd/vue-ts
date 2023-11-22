@@ -38,6 +38,11 @@ const routes: Array<RouteRecordRaw> = [
     path: '/performanceOptimization',
     name: 'PerformanceOptimization',
     component: () => import('@/views/performanceOptimization/index.vue')
+  },
+  {
+    path: '/exercises',
+    name: 'Exercises',
+    component: () => import('@/views/exercises/index.vue')
   }
 ]
 
