@@ -94,7 +94,7 @@ for (let [key, value] of entries) {
 // 难点：实现一个普通的obj能让for..offor..of 遍历
 console.log("难点：实现一个普通的obj能让for..offor..of 遍历");
 
-let obj1 = {
+let obj1: Object = {
   0: 1,
   1: 2,
   2: 3,
