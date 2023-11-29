@@ -2,7 +2,7 @@
 
 <script setup lang='ts'>
 console.log("running import模块");
-import { sum, person, city } from "./06_Export导出.js";
+import { sum, person, city } from "./05_Export导出.js";
 
 console.log(sum(1, 2));
 
@@ -15,4 +15,4 @@ console.log(city);
 </script>
 
 <style scoped>
-</style>./06_Export导出.js
+</style>

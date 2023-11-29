@@ -35,7 +35,7 @@
     "src/**/*.d.ts",
     "src/**/*.tsx",
     "src/**/*.vue",
-    "src/views/es5-12/06_Export导出.js"
+    "src/views/es5-12/05_Export导出.js"
   ],
   "references": [
     {
